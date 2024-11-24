@@ -13,7 +13,7 @@ user = "root"
 password = "QYruqXDRGGyBxlYXXcoMmaTSExlNQYxZ"
 database = "railway"
 
-# Conectar a la base de datos con pymysql
+# Conectar a la base de datos \
 #@st.cache_data(ttl=600)
 def fetch_data(host, user, password, database):
     try:
